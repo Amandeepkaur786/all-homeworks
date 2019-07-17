@@ -53,7 +53,7 @@ void quick(int array[], int l, int r) {
 
 int main() {
 
-	int a[]={2,45,7,78,52,3,1};
+	int a[]={5,40,9,72,49,1,12};
 	quick(a,0,6);
 	for(int m=0;m<7;m++)
 	cout << a[m]<< " " ;
