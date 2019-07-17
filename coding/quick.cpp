@@ -41,13 +41,13 @@ void quick(int array[], int l, int r) {
 
       };
 
-      if (left < j)
+      if (l < n)
 
-            quick(arr, left, j);
+            quick(array, l, n);
 
-      if (i < right)
+      if (m < r)
 
-            quick(arr, i, right);
+            quick(array, m, r);
 
 }
 
@@ -55,7 +55,7 @@ int main() {
 
 	int a[]={2,45,7,78,52,3,1};
 	quick(a,0,6);
-	for(int i=0;i<7;i++)
-	cout << a[i]<< " " ;
+	for(int m=0;m<7;m++)
+	cout << a[m]<< " " ;
 	return 0;
 }
