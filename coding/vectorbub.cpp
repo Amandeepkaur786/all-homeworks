@@ -17,7 +17,7 @@ vector<int>::iterator it;
 void print(vector<int> vec1)
 {
 	cout<<"vector is equal to ";
-	for(iter=vec1.begin();iter != vec1.end();it++)
+	for(it=vec1.begin();it!= vec1.end();it++)
 	{
 		cout<<" "<<*it;
 	}
