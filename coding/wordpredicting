@@ -6,7 +6,7 @@ if [ -e "$filename" ]
 then
 echo "File is there"
 else
-echo "File is existing"
+echo "File is not there"
 fi
 
 WORD_CONT=$(grep -i -o $wordposi $filename | wc -l)
