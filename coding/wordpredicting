@@ -1,0 +1,21 @@
+filename=$1
+wordposi=$2
+empty=0
+
+if [ -e "$filename" ]
+then
+echo "File is there"
+else
+echo "File is existing"
+fi
+
+WORD_CONT=$(grep -i -o $wordposi $filename | wc -l)
+
+if [ "$wordcount" -ne "$empty" ]
+then
+echo "word is here "
+echo "The word "$wordposi"  ="
+echo "$wordposi"
+else
+echo "Empty"
+fi 
